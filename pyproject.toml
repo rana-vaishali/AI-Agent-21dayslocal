@@ -1,0 +1,17 @@
+[project]
+name = "ai-agent-21dayslocal"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "vaishali", email = "vishu.niit@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "openai>=3.37.0",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+ai-agent-21dayslocal = "ai_agent_21dayslocal:main"
+
